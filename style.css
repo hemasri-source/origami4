@@ -1,0 +1,40 @@
+h1{
+margin-left: 650px;
+}
+.images{
+    display:flex;
+    justify-content: space-between;
+}
+.images img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+body{
+    background-color: gold;
+}
+.links a{
+    padding: 50px;
+    display: flex;
+}
+a:link{
+    color:green
+}
+a:visited{
+    color:red
+}
+.item{
+    position: relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.3;
+}
